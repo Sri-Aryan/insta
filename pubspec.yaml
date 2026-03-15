@@ -33,7 +33,7 @@ dependencies:
   flutter_riverpod: ^2.4.9
   cached_network_image:
   shimmer:
-  smooth_page_indicator:
+  smooth_page_indicator: ^1.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -91,3 +91,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+dependency_overrides:
+  vector_math: ^2.2.0
