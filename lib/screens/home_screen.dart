@@ -42,8 +42,8 @@ class _HomeFeedScreenState extends ConsumerState<HomeFeedScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
-        elevation: 0,
-        title: const Text('Instagram', style: TextStyle(fontFamily: 'Billabong', fontSize: 32, color: Colors.black)),
+        //elevation: 0,
+        title: Image.asset("assets/images/logo.png",height: 120,width: 120,),
         actions: [
           IconButton(icon: const Icon(Icons.favorite_border, color: Colors.black), onPressed: () {}),
           IconButton(icon: const Icon(Icons.send, color: Colors.black), onPressed: () {}),
@@ -79,7 +79,7 @@ class _HomeFeedScreenState extends ConsumerState<HomeFeedScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: Image.asset("tabbar.png"),
+      bottomNavigationBar: Image.asset("assets/images/tabbar.png"),
     );
   }
 }
