@@ -76,7 +76,7 @@ class StoryTray extends StatelessWidget {
                 const SizedBox(height: 4),
                 Text(
                   username,
-                  style: const TextStyle(fontSize: 11, color: Colors.black87),
+                  style: const TextStyle(fontSize: 8, color: Colors.black87),
                   overflow: TextOverflow.ellipsis,
                 ),
               ],
